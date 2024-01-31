@@ -4,10 +4,14 @@
     "name": "Hello Extensions",
     "description": "Base Level Extension",
     "version": "1.0",
+    "permissions": [
+      "bookmarks"
+    ],
     "action": {
-      "default_popup": "index.html",
       "default_icon": "hello_extensions.png"
-      
+    },
+    "chrome_url_overrides" : {
+      "newtab": "index.html"
     }
   }
 
