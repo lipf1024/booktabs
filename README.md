@@ -5,8 +5,10 @@
 git config --global --edit
 这会打开一个配置文件，我们需要在文件中添加以下内容：
 
+```
 [http]
-proxy = socks5://代理服务器地址:端口号
+proxy = socks5://127.0.0.1:7890
 [https]
-proxy = socks5://代理服务器地址:端口号
+proxy = socks5://127.0.0.1:7890
+```
 保存并关闭配置文件后，代理设置就生效了。
